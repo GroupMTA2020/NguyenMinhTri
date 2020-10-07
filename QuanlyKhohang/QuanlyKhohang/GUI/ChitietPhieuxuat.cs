@@ -14,6 +14,7 @@ namespace QuanlyKhohang.GUI
 {
     public partial class Chitietphieuxuat : Form
     {
+        ChitietPhieuxuat_BUS ct = new ChitietPhieuxuat_BUS();
 
         public Chitietphieuxuat()
         {

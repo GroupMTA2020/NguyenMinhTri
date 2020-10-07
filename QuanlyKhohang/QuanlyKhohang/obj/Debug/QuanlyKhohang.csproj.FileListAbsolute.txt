@@ -77,3 +77,28 @@ C:\Users\Admin\Downloads\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.S
 C:\Users\Admin\Downloads\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.xml
 C:\Users\Admin\Downloads\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Admin\Downloads\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.csproj.CopyComplete
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\QuanlyKhohang.exe.config
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\QuanlyKhohang.exe
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\QuanlyKhohang.pdb
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.dll
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.SqlServer.dll
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.xml
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.SqlServer.xml
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Chitietphieunhap.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Chitietphieuxuat.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Dangnhap.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Form_KH.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\GUI.Form_NCC.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Form_NV.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Huongdan.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Khachhang.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Nhacungcap.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Phieunhap.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Phieuxuat.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Sanpham.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.Properties.Resources.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.QLKhohang.resources
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.csproj.GenerateResource.cache
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.csproj.CopyComplete
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.exe
+E:\Thực Tập Nhóm 2020\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.pdb
