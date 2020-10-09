@@ -18,22 +18,31 @@ namespace QuanlyKhohang.GUI
 
         public Chitietphieuxuat()
         {
+            InitializeComponent();
+            ct.sanPham = dataGridView1;
+            ct.chiTiet = dataGridView2;
+            ct.txtTotal = txtTongtien;
         }    
         private void Chitietphieuxuat_Load_1(object sender, EventArgs e)
         {
-           
+            ct.ViewAll(int.Parse(txtPXID1.Text));
+            txtID.Focus();
         }
 
         public void GetValue1(string pxid)
         {
-            
+            txtPXID1.Text = pxid;
         }
 
         #region CellContentClick
-        
+        int trangThai = 0;
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+            trangThai = 0;
+            txtID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            txtSanpham.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            btnXoa.Enabled = false;
+            txtSoluong.Focus();
         }
 
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
