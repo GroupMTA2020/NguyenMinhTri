@@ -47,29 +47,49 @@ namespace QuanlyKhohang.GUI
 
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+            trangThai = 1;
+            txtID.Text = dataGridView2.CurrentRow.Cells[0].Value.ToString();
+            txtSanpham.Text = dataGridView2.CurrentRow.Cells[1].Value.ToString();
+            txtSoluong.Text = dataGridView2.CurrentRow.Cells[3].Value.ToString();
+            btnXoa.Enabled = true;
+            txtSoluong.Focus();
         }
         #endregion
 
         #region ButtonHandle
         private void txtSoluong_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
         }
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-           
+            if (txtSoluong.Text == "" || int.Parse(txtSoluong.Text) <= 0)
+                MessageBox.Show("Nhập số lượng lớn hơn 0.");
+            else
+            {
+                if (trangThai == 0)
+                    ct.Insert_Update(int.Parse(txtPXID1.Text), int.Parse(txtID.Text), int.Parse(txtSoluong.Text));
+                else
+                    ct.Update(int.Parse(txtPXID1.Text), int.Parse(txtID.Text), int.Parse(txtSoluong.Text));
+
+                ct.ViewAll(int.Parse(txtPXID1.Text));
+            }
+            btnXoa.Enabled = false;
         }
 
         private void btnXoa_Click_1(object sender, EventArgs e)
         {
-            
+            ct.Delete(int.Parse(txtPXID1.Text), int.Parse(txtID.Text));
+            ct.ViewAll(int.Parse(txtPXID1.Text));
+            btnXoa.Enabled = false;
+            txtID.ResetText(); txtSanpham.ResetText(); txtSoluong.ResetText();
         }
 
         private void btnLuu_Click_1(object sender, EventArgs e)
         {
-         
+            this.Hide();
         }
 
         #endregion
