@@ -43,7 +43,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(61, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 16);
+            this.label1.Size = new System.Drawing.Size(86, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tài khoản:";
             // 
@@ -52,7 +52,7 @@
             this.txtTaikhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTaikhoan.Location = new System.Drawing.Point(152, 60);
             this.txtTaikhoan.Name = "txtTaikhoan";
-            this.txtTaikhoan.Size = new System.Drawing.Size(146, 22);
+            this.txtTaikhoan.Size = new System.Drawing.Size(146, 26);
             this.txtTaikhoan.TabIndex = 1;
             // 
             // btnDangnhap
@@ -70,7 +70,7 @@
             this.txtMatkhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatkhau.Location = new System.Drawing.Point(152, 125);
             this.txtMatkhau.Name = "txtMatkhau";
-            this.txtMatkhau.Size = new System.Drawing.Size(146, 22);
+            this.txtMatkhau.Size = new System.Drawing.Size(146, 26);
             this.txtMatkhau.TabIndex = 2;
             // 
             // label2
@@ -79,7 +79,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(61, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 16);
+            this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Mật khẩu:";
             // 
@@ -90,7 +90,7 @@
             this.lbl1.ForeColor = System.Drawing.Color.Red;
             this.lbl1.Location = new System.Drawing.Point(152, 89);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(126, 13);
+            this.lbl1.Size = new System.Drawing.Size(168, 17);
             this.lbl1.TabIndex = 5;
             this.lbl1.Text = "Kiểm tra lại tên tài khoản.";
             this.lbl1.Visible = false;
@@ -102,15 +102,16 @@
             this.lbl2.ForeColor = System.Drawing.Color.Red;
             this.lbl2.Location = new System.Drawing.Point(152, 150);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(108, 13);
+            this.lbl2.Size = new System.Drawing.Size(144, 17);
             this.lbl2.TabIndex = 6;
             this.lbl2.Text = "Kiểm tra lại mật khẩu.";
             this.lbl2.Visible = false;
             // 
             // Dangnhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(406, 260);
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl1);

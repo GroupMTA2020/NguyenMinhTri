@@ -88,8 +88,12 @@ namespace QuanlyKhohang.GUI
         }
 
 
+
         #endregion
 
-       
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
