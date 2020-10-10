@@ -33,7 +33,7 @@ namespace QuanlyKhohang.BUS
             dv.RowFilter = "[TenKH] like '%" + tenkh + "%' and [Diachi] like '%" + diachi + "%'";
             bangDuLieu.DataSource = dv;
         }
-        public void Add(string ten, string diachi, string dienthoai, string email)
+        public void Add(string ten,string diachi,string dienthoai,string email)
         {
             DataAccess.NonQuery("Khachhang_insert",
                 new SqlParameter("@ten", ten),
@@ -41,7 +41,7 @@ namespace QuanlyKhohang.BUS
                 new SqlParameter("@dienthoai", dienthoai),
                 new SqlParameter("@email", email));
         }
-        public void Update(int id, string ten, string diachi, string dienthoai, string email)
+        public void Update(int id,string ten, string diachi, string dienthoai, string email)
         {
             DataAccess.NonQuery("Khachhang_update",
                 new SqlParameter("@khid", id),
@@ -52,7 +52,7 @@ namespace QuanlyKhohang.BUS
         }
         public int Delete(int id)
         {
-            DataTable dt = DataAccess.Query("Khachhang_delete",
+            DataTable dt =  DataAccess.Query("Khachhang_delete",
                 new SqlParameter("@khid", id));
             int res = int.Parse(dt.Rows[0][0].ToString());
             return res;

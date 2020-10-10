@@ -18,7 +18,7 @@ namespace QuanlyKhohang.BUS
         public void ViewAll(int pnid, int nccid)
         {
             txtTotal.Text = DataAccess.Query("select * from GetTotal(" + pnid.ToString() + ")").Rows[0][0].ToString();
-            DataTable dt1 = DataAccess.Query("select * from Sanpham where NCCID = " + nccid.ToString());
+            DataTable dt1 = DataAccess.Query("select * from Sanpham where NCCID = "+nccid.ToString());
             sanPham.DataSource = dt1;
             sanPham.Columns[0].HeaderText = "ID";
             sanPham.Columns[1].HeaderText = "Tên SP";
@@ -26,7 +26,7 @@ namespace QuanlyKhohang.BUS
             sanPham.Columns[3].HeaderText = "Giá";
             sanPham.Columns[4].HeaderText = "SL";
 
-            DataTable dt2 = DataAccess.Query("select * from Chitietphieunhap_view(" + pnid.ToString() + ")");
+            DataTable dt2 = DataAccess.Query("select * from Chitietphieunhap_view("+pnid.ToString()+")");
             chiTiet.DataSource = dt2;
             chiTiet.Columns[0].HeaderText = "ID";
             chiTiet.Columns[1].HeaderText = "Tên SP";
