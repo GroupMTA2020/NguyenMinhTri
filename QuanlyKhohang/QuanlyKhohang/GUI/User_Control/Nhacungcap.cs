@@ -40,7 +40,6 @@ namespace QuanlyKhohang.GUI
 
         #region Handle button
         int luu = 0;
-
         public void ResetText1()
         {
             List<TextBox> lst = new List<TextBox>()

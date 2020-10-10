@@ -18,7 +18,6 @@ namespace QuanlyKhohang.GUI
         {
             InitializeComponent();
             kh.bangDuLieu = dataGridView1;
-
         }
         private void Khachhang_Load(object sender, EventArgs e)
         {
@@ -146,7 +145,6 @@ namespace QuanlyKhohang.GUI
                     Start();
                 }
             }
-
         }
         #endregion
 
