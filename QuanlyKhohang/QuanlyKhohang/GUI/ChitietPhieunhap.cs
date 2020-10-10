@@ -20,7 +20,7 @@ namespace QuanlyKhohang.GUI
             InitializeComponent();
             ct.sanPham = dataGridView1;
             ct.chiTiet = dataGridView2;
-            ct.txtTotal = txtTongtien;
+            ct.txtTotal= txtTongtien;
         }
         public void GetValue1(string pnid, string nccid)
         {
@@ -42,7 +42,7 @@ namespace QuanlyKhohang.GUI
             txtSanpham.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
             btnXoa.Enabled = false;
             txtSoluong.Focus();
-        }    
+        }
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             trangThai = 1;
@@ -59,14 +59,6 @@ namespace QuanlyKhohang.GUI
         {
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
                 e.Handled = true;
-
-        }
-        private void btnXoa_Click(object sender, EventArgs e)
-        {
-            ct.Delete(int.Parse(txtPNID1.Text), int.Parse(txtID.Text));
-            ct.ViewAll(int.Parse(txtPNID1.Text), int.Parse(txtNCCID.Text));
-            btnXoa.Enabled = false;
-            txtID.ResetText(); txtSanpham.ResetText(); txtSoluong.ResetText();
         }
         private void btnOk_Click(object sender, EventArgs e)
         {
@@ -74,7 +66,7 @@ namespace QuanlyKhohang.GUI
                 MessageBox.Show("Nhập số lượng lớn hơn 0.");
             else
             {
-                if (trangThai == 0)
+                if(trangThai == 0)
                     ct.Insert_Update(int.Parse(txtPNID1.Text), int.Parse(txtID.Text), int.Parse(txtSoluong.Text));
                 else
                     ct.Update(int.Parse(txtPNID1.Text), int.Parse(txtID.Text), int.Parse(txtSoluong.Text));
@@ -83,11 +75,21 @@ namespace QuanlyKhohang.GUI
             }
             btnXoa.Enabled = false;
         }
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            ct.Delete(int.Parse(txtPNID1.Text), int.Parse(txtID.Text));
+            ct.ViewAll(int.Parse(txtPNID1.Text), int.Parse(txtNCCID.Text));
+            btnXoa.Enabled = false;
+            txtID.ResetText(); txtSanpham.ResetText(); txtSoluong.ResetText();
+        }
         private void btnLuu_Click(object sender, EventArgs e)
         {
             this.Hide();
         }
+
+
         #endregion
 
+       
     }
 }

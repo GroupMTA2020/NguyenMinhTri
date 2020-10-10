@@ -15,14 +15,13 @@ namespace QuanlyKhohang.GUI
     public partial class Chitietphieuxuat : Form
     {
         ChitietPhieuxuat_BUS ct = new ChitietPhieuxuat_BUS();
-
         public Chitietphieuxuat()
         {
             InitializeComponent();
             ct.sanPham = dataGridView1;
             ct.chiTiet = dataGridView2;
             ct.txtTotal = txtTongtien;
-        }    
+        }
         private void Chitietphieuxuat_Load_1(object sender, EventArgs e)
         {
             ct.ViewAll(int.Parse(txtPXID1.Text));
