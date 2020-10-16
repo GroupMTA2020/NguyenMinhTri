@@ -121,6 +121,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.groupBox1.Controls.Add(this.txtPXID);
             this.groupBox1.Controls.Add(this.txtNVID);
             this.groupBox1.Controls.Add(this.txtKHID);
@@ -149,7 +150,7 @@
             // 
             // btnChitietPX
             // 
-            this.btnChitietPX.BackColor = System.Drawing.Color.LightGray;
+            this.btnChitietPX.BackColor = System.Drawing.Color.Yellow;
             this.btnChitietPX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChitietPX.Location = new System.Drawing.Point(654, 80);
             this.btnChitietPX.Name = "btnChitietPX";
@@ -284,6 +285,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.txtTKNhanvien);
             this.groupBox2.Controls.Add(this.label8);
@@ -324,7 +326,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.BackColor = System.Drawing.Color.LightGray;
+            this.btnLuu.BackColor = System.Drawing.Color.Yellow;
             this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.Location = new System.Drawing.Point(722, 425);
             this.btnLuu.Name = "btnLuu";
@@ -336,7 +338,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = System.Drawing.Color.LightGray;
+            this.btnXoa.BackColor = System.Drawing.Color.Yellow;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.Location = new System.Drawing.Point(722, 367);
             this.btnXoa.Name = "btnXoa";
@@ -348,7 +350,7 @@
             // 
             // btnSua
             // 
-            this.btnSua.BackColor = System.Drawing.Color.LightGray;
+            this.btnSua.BackColor = System.Drawing.Color.Yellow;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.Location = new System.Drawing.Point(722, 309);
             this.btnSua.Name = "btnSua";
@@ -360,7 +362,7 @@
             // 
             // btnThem
             // 
-            this.btnThem.BackColor = System.Drawing.Color.LightGray;
+            this.btnThem.BackColor = System.Drawing.Color.Yellow;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.Location = new System.Drawing.Point(722, 251);
             this.btnThem.Name = "btnThem";
@@ -372,7 +374,7 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.BackColor = System.Drawing.Color.LightGray;
+            this.btnHuy.BackColor = System.Drawing.Color.Yellow;
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.Location = new System.Drawing.Point(722, 483);
             this.btnHuy.Name = "btnHuy";
@@ -386,6 +388,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);

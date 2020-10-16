@@ -61,6 +61,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.email);
             this.groupBox1.Controls.Add(this.label);
@@ -75,9 +76,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(3, 5);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1148, 169);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
@@ -86,7 +87,7 @@
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(927, 37);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(189, 24);
             this.txtEmail.TabIndex = 12;
@@ -114,7 +115,7 @@
             // txtDienthoai
             // 
             this.txtDienthoai.Location = new System.Drawing.Point(577, 107);
-            this.txtDienthoai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDienthoai.Margin = new System.Windows.Forms.Padding(4);
             this.txtDienthoai.Name = "txtDienthoai";
             this.txtDienthoai.Size = new System.Drawing.Size(189, 24);
             this.txtDienthoai.TabIndex = 8;
@@ -132,7 +133,7 @@
             // txtDiachi
             // 
             this.txtDiachi.Location = new System.Drawing.Point(577, 37);
-            this.txtDiachi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiachi.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiachi.Name = "txtDiachi";
             this.txtDiachi.Size = new System.Drawing.Size(189, 24);
             this.txtDiachi.TabIndex = 6;
@@ -160,7 +161,7 @@
             // txtTenNCC
             // 
             this.txtTenNCC.Location = new System.Drawing.Point(195, 103);
-            this.txtTenNCC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNCC.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenNCC.Name = "txtTenNCC";
             this.txtTenNCC.Size = new System.Drawing.Size(189, 24);
             this.txtTenNCC.TabIndex = 3;
@@ -177,7 +178,7 @@
             // txtNCCID
             // 
             this.txtNCCID.Location = new System.Drawing.Point(195, 36);
-            this.txtNCCID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNCCID.Margin = new System.Windows.Forms.Padding(4);
             this.txtNCCID.Name = "txtNCCID";
             this.txtNCCID.ReadOnly = true;
             this.txtNCCID.Size = new System.Drawing.Size(189, 24);
@@ -195,15 +196,16 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.txtTKDiachi);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.txtTKTenNCC);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(7, 181);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(1148, 78);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
@@ -222,7 +224,7 @@
             // txtTKDiachi
             // 
             this.txtTKDiachi.Location = new System.Drawing.Point(697, 31);
-            this.txtTKDiachi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTKDiachi.Margin = new System.Windows.Forms.Padding(4);
             this.txtTKDiachi.Name = "txtTKDiachi";
             this.txtTKDiachi.Size = new System.Drawing.Size(189, 24);
             this.txtTKDiachi.TabIndex = 7;
@@ -241,7 +243,7 @@
             // txtTKTenNCC
             // 
             this.txtTKTenNCC.Location = new System.Drawing.Point(219, 31);
-            this.txtTKTenNCC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTKTenNCC.Margin = new System.Windows.Forms.Padding(4);
             this.txtTKTenNCC.Name = "txtTKTenNCC";
             this.txtTKTenNCC.Size = new System.Drawing.Size(189, 24);
             this.txtTKTenNCC.TabIndex = 5;
@@ -249,10 +251,10 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = System.Drawing.Color.LightGray;
+            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.Location = new System.Drawing.Point(964, 427);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(156, 44);
             this.btnXoa.TabIndex = 10;
@@ -262,10 +264,10 @@
             // 
             // btnSua
             // 
-            this.btnSua.BackColor = System.Drawing.Color.LightGray;
+            this.btnSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.Location = new System.Drawing.Point(964, 359);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(156, 44);
             this.btnSua.TabIndex = 9;
@@ -275,10 +277,10 @@
             // 
             // btnThem
             // 
-            this.btnThem.BackColor = System.Drawing.Color.LightGray;
+            this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.Location = new System.Drawing.Point(964, 292);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(156, 44);
             this.btnThem.TabIndex = 7;
@@ -291,9 +293,9 @@
             this.groupBox3.Controls.Add(this.dataGridView1);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(7, 271);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(924, 395);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
@@ -305,7 +307,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(4, 21);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
@@ -315,10 +317,10 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.BackColor = System.Drawing.Color.LightGray;
+            this.btnHuy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.Location = new System.Drawing.Point(964, 562);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(156, 44);
             this.btnHuy.TabIndex = 11;
@@ -328,10 +330,10 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.BackColor = System.Drawing.Color.LightGray;
+            this.btnLuu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.Location = new System.Drawing.Point(964, 495);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(156, 44);
             this.btnLuu.TabIndex = 12;
@@ -343,6 +345,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnXoa);
@@ -351,7 +354,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Nhacungcap";
             this.Size = new System.Drawing.Size(1159, 666);
             this.Load += new System.EventHandler(this.Nhacungcap_Load);

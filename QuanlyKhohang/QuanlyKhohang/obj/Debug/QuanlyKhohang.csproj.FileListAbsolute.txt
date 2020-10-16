@@ -77,3 +77,30 @@ C:\Users\Admin\Downloads\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.S
 C:\Users\Admin\Downloads\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.xml
 C:\Users\Admin\Downloads\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Admin\Downloads\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\QuanlyKhohang.exe.config
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\QuanlyKhohang.exe
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\QuanlyKhohang.pdb
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.dll
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.xml
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Chitietphieunhap.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Chitietphieuxuat.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Dangnhap.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Form_KH.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\GUI.Form_NCC.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Form_NV.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Huongdan.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Khachhang.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Nhacungcap.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Phieunhap.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Phieuxuat.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.GUI.Sanpham.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.QLKhohang.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.exe
+C:\Users\Admin\OneDrive\Máy tính\GitHub\NguyenMinhTri\QuanlyKhohang\QuanlyKhohang\obj\Debug\QuanlyKhohang.pdb
