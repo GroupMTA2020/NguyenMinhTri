@@ -33,6 +33,8 @@ namespace QuanlyKhohang
                 panel1.Controls.Add(new Phieuxuat());
             else if (ts.Text == "Hướng dẫn")
                 panel1.Controls.Add(new Huongdan());
+            else if (ts.Text == "Thống kê")
+                panel1.Controls.Add(new ThongKe());
             else if (ts.Text == "Đăng xuất")
             {
                 Dangnhap dn = new Dangnhap();
@@ -47,6 +49,12 @@ namespace QuanlyKhohang
         private void QLKhohang_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(new ThongKe());
         }
     }
 }
